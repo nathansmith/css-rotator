@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Random CSS Background Rotator</title>
+<style type="text/css" media="all">
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background: #333;
+	color: #666;
+}
+
+h1
+{
+	background: #000;
+	border-bottom: 1px solid #fff;
+	color: #fff;
+	font: 25px/2 Georgia, sans-serif;
+	text-align: center;
+}
+
+p
+{
+	padding: 0 20px 15px;
+}
+
+p.footer
+{
+	background: #222;
+	color: #ccc;
+	font: 11px Verdana, sans-serif;
+	margin: 10px 0 0;
+	padding: 10px 0;
+	text-align: center;
+}
+
+p.footer a
+{
+	background: inherit;
+	color: #ccc;
+}
+
+#content
+{
+	background: #fff;
+	color: inherit;
+	font: 18px/1.75 Georgia, serif;
+	margin: 0 auto;
+	padding: 20px 0 0;
+	width: 700px;
+}
+
+#rotator
+{
+	background: #222 url(images/rotator.php) no-repeat center top;
+	color: inherit;
+	height: 150px;
+	width: 100%;
+}
+
+</style>
+</head>
+<body>
+<h1>Random CSS Background Rotator</h1>
+<div id="rotator">&nbsp;</div>
+<div id="content">
+  <p>This page was created to demonstrate how the PHP rotator script by Automatic Labs can be used to rotate random CSS background images. As you refresh this page, you should be seeing one of several different possible header images. If the page is refreshed too quickly, sometimes the background will repeat itself, but for the most part your browser should display a different image for every page load.</p>
+  <p class="footer"><a href="http://validator.w3.org/check/referer">XHTML</a> <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> <a href="http://www.contentquality.com/mynewtester/cynthia.exe?Url1=http://host.sonspring.com/css-rotator/">508</a> | Example and tutorial by <a href="http://sonspring.com/journal/easy-random-css-backgrounds">Nathan Smith</a>. | PHP rotator script by <a href="http://alistapart.com/articles/randomizer/">Dan Benjamin</a>.</p>
+</div>
+</body>
+</html>
